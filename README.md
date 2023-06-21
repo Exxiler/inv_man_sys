@@ -1,7 +1,15 @@
-Invoice Management System
-=====
-
+Invoice Management System (In Progress)
+====
 This is a basic invoice management system developed using Spring Boot backend and Thymeleaf for the frontend. The application allows users to manage invoices a, providing functionality for creating, updating, and deleting records.
+
+# Work is still in progress, dont expect (fully) functional program.
+
+# to-do
+
+* Complete frontend
+* Security
+* Database connection
+* Etc.
 
 # Prerequisites
 
