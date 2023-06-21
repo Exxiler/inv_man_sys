@@ -1,0 +1,6 @@
+
+
+@Repository
+public class InvoiceRepository {
+    
+}
