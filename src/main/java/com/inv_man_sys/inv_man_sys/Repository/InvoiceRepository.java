@@ -2,7 +2,6 @@ package com.inv_man_sys.inv_man_sys.Repository;
 
 import java.util.List;
 
-import org.springframework.boot.autoconfigure.batch.BatchProperties.Jdbc;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
@@ -27,6 +26,10 @@ public class InvoiceRepository {
             rs.getString("comment"),
             rs.getDouble("price")
         ));
+    }
+
+    public Object findById(Long id) {
+        return null;
     }
 
 }
